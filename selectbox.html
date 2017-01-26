@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Select Test</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+<style>
+body, *, html { font-family: 'helvetica neue', arial, sans-serif; }
+select, option { 
+   -webkit-appearance: none;
+   border: 1px solid #ccc;
+   padding: 0.6em;
+   font-size: 12px;
+   line-height: 1.2em;
+   vertical-align: text-top;
+   background: #f8f8f8 url("http://i.imgur.com/8bxWx.png") no-repeat 95% center;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#ececec)) ;
+   -webkit-background-image: url("http://i.imgur.com/8bxWx.png") no-repeat -10px center;
+   -webkit-appearance: none;
+   -webkit-box-shadow: 1px 1px 1px #f8f8f8;
+   -webkit-border-radius: 2px;
+
+</style>
+</head>
+<body>
+<h2>How I want it to look</h2>
+<img src="http://i.imgur.com/UNI07.png" />
+<br><hr><br>
+<h2>How it looks</h2>
+<form action="some" method="get">
+  <select>
+    <option>First One</option>
+    <option>Second One</option>
+    <option>And One Big Long Third One</option>
+    <option>Fourth One</option>
+  </select>
+</form>
+</body>
+</html>
